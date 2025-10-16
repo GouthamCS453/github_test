@@ -10,7 +10,7 @@ app.get('/', (req, res) => {
 });
 // Example "about" route (to reuse partials)
 app.get('/about', (req, res) => {
- res.render('pages/about', { message: 'This is the About Page' });
+ res.render('pages/about', { message: 'I change this part This is the About Page' });
 });
 app.listen(port, () => {
  console.log(`App running at http://localhost:${port}`);
